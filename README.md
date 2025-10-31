@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 📰 Blogify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive blogging web application built with **React + Redux + Tailwind CSS**, designed to provide a social platform where users can explore blogs, manage todos, upload images, and more — all in one place!
 
-## Available Scripts
+🌐 **Live Demo:** [https://blogify-darshit.netlify.app/login](https://blogify-darshit.netlify.app/login)  
+💾 **GitHub Repository:** [https://github.com/darshitShah8044/blogify](https://github.com/darshitShah8044/blogify)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🔐 Admin Login Credentials
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Email                | Password  |
+|----------------------|-----------|
+| `admin@example.com`  | `admin123` |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Use these credentials to log in as the admin and access all sections of the app.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Tech Stack
 
-### `npm run build`
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS
+- **State Management:** Redux Toolkit
+- **Routing:** React Router DOM
+- **Image Gallery API:** Pexels API
+- **Storage:** LocalStorage (for user uploads and comments)
+- **Animations:** CSS transitions + custom shimmer effect
+- **Environment Variables:** `.env` for API keys
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Features Overview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🏠 Dashboard
+- Displays summary of app modules — Todos, Explore, Albums, etc.
+- Add/Edit/Delete blogs
+- Navigation between pages with React Router.
 
-### `npm run eject`
+### ✅ Todo Manager
+- Add, delete, and mark todos as **Pending** or **Completed**.
+- Filter todos by status using **Pending** and **Completed** buttons.
+- Data persisted in **LocalStorage**.
+- Built as a separate reusable component and integrated into Dashboard.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🌍 Explore Tab
+- Displays **blogs** in a social-media-like feed.
+- Reads data from a **static JSON file**.
+- Allows users to **comment** on each blog.
+- Comments are stored in **LocalStorage**, so they persist after reload.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🖼️ Albums (Gallery)
+- Fetches high-quality images from **Pexels API**.
+- Implements **Lazy Loading** and a custom **Shimmer effect** for smooth UX.
+- Users can **upload their own images** — saved locally and displayed alongside fetched images.
+- Fully responsive layout with Tailwind grid system.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🌗 Responsive Design
+- Built with **Tailwind CSS utility classes** for responsiveness.
+- Automatically adapts to mobile, tablet, and desktop viewports.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### ⚡ Performance & State Management
+- Uses **Redux Toolkit** for global state (Todos, User Auth, etc.).
+- React state hooks (`useState`, `useEffect`) for component-level control.
+- API data and UI state are decoupled, ensuring reusability and maintainability.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧱 Folder Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
