@@ -1,0 +1,32 @@
+[
+    {
+        "id": 101,
+        "author": "John Doe",
+        "title": "How I started Blogging",
+        "content": "I started blogging to document my learning. Over time I discovered that writing helped me think clearly and people responded to my honest experiences. In this post I share the first steps, mistakes and tips to remain consistent.",
+        "category": "Lifestyle",
+        "tags": ["motivation", "writing"],
+        "createdAt": "2025-10-15T10:00:00Z",
+        "comments": [{"user": "Amit", "text": "Nice insights!", "createdAt": "2025-10-16T09:00:00Z"}]
+    },
+    {
+        "id": 102,
+        "author": "Priya Sharma",
+        "title": "Top 5 React Tips",
+        "content": "React Hooks changed everything. Here are five practical tips I use every day: 1) prefer small hooks, 2) memoize values that cost to compute, 3) keep effects focused, 4) use reducers for complex state, 5) test hooks with simple components.",
+        "category": "Tech",
+        "tags": ["react", "frontend"],
+        "createdAt": "2025-10-20T14:30:00Z",
+        "comments": []
+    },
+    {
+        "id": 103,
+        "author": "Rahul Verma",
+        "title": "Designing Minimal UIs",
+        "content": "Minimal UI isn't just fewer colors — it's about removing friction for the user. This post explains a framework for pruning UI features without harming usability.",
+        "category": "Design",
+        "tags": ["ui", "ux", "design"],
+        "createdAt": "2025-10-22T08:10:00Z",
+        "comments": []
+    }
+]
